@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form name="Registration">
+		<!-- Name -->
+		<div>
+			<label for="fn">First Name:</label>
+			<input type="text" name="fn" id="fn" required placeholder="John"/>
+
+			<label for="ln">Last Name:</label>
+			<input type="text" name="ln" id="ln" required placeholder="Smith"/>
+		</div>
+		<!-- Gender -->
+		<div>
+			<label for="m">Male</label>
+			<input type="radio" name="g" id="m" value="m"/>
+
+			<label for="f">Female</label>
+			<input type="radio" name="g" id="f" value="f"/>
+
+			<label for="o">Other</label>
+			<input type="radio" name="g" id="o" value="o"/>
+			</div>
+			<!-- Email -->
+			<div>
+			<label for="email">Email:</label>
+			<input type="Email" name="email" id="email" required placeholder="your email"/>
+			<!-- Password -->
+			<label for="pw">Password:</label>
+			<input type="Password" name="pw" id="pw" required minlength="5" maxlength="10"/>
+		</div>
+		<!-- DOB -->
+		<div>
+			<label for="bd-month">Birthday:</label>
+			<select id="bd-month" name="bd-month">
+				<option value="def">Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+			</select>
+			<select id="bd-day" name="bd-day">
+				<option value="def">day</option>
+				<option value="Jan">1</option>
+				<option value="Feb">2</option>
+			</select>
+			<select id="bd-year" name="bd-year">
+				<option value="def">Year</option>
+				<option value="Jan">1990</option>
+				<option value="Feb">1989</option>
+			</select>
+		</div>
+		<!-- Terms and Conditions -->
+		<div>
+			<label for="check">I agree to the terms and conditions:</label>
+			<input type="checkbox" name="check" id="check" required>
+		</div>
+		<div>
+			<input type="submit">
+		</div>
+	</form>
+
+</body>
+</html>
