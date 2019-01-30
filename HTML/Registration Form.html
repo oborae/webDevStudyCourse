@@ -32,7 +32,8 @@
 			<input type="Email" name="email" id="email" required placeholder="your email"/>
 			<!-- Password -->
 			<label for="pw">Password:</label>
-			<input type="Password" name="pw" id="pw" required minlength="5" maxlength="10"/>
+			<!-- <input type="Password" name="pw" id="pw" required minlength="5" maxlength="10"/> -->
+			<input type="password" name="pw" id="pw" pattern=".{5,10}" placeholder="your password" required title="5 to 10 characters">
 		</div>
 		<!-- DOB -->
 		<div>
