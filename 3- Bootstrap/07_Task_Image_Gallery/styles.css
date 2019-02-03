@@ -1,0 +1,26 @@
+.navcolor{
+	background: #2c3e50;
+}
+
+.jumbocolor{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.thumbnail img {
+    height:250px;
+    width:100%;
+  	background-size: cover;
+  	background-position: center;
+}
+body { 
+	padding-top: 70px; 
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
