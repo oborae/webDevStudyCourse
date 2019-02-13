@@ -4,6 +4,10 @@ body {
     background-position: center; 
 }
 
+.test{
+    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
+
 body,
 html {
     width: 100%;
